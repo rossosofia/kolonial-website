@@ -1,6 +1,6 @@
 const element = document.querySelector(".gallery");
 
-console.log(element);
+// console.log(element);
 
 element.addEventListener('wheel', (event) => {
     // this ensure that page won't scroll down
@@ -22,7 +22,7 @@ console.log ("group9isthebest");
 function setup() {
   getGoodies(); 
   // goodies category 2
-  getProducers(); 
+  // getProducers(); 
   // producers category 3
 }
 
