@@ -130,7 +130,7 @@ ul.nav li a:active {
 .section-1-text,
 .section-2-text,
 .section-3-text,
-.section-4-text,
+/* .section-4-text, */
 .section-5-where-are-we h1 {
   grid-column: 2/-2;
   display: flex;
@@ -141,9 +141,16 @@ ul.nav li a:active {
 
 .section-1-text p,
 .section-2-text p,
-.section-3-text p,
-.section-4-text p {
+.section-3-text p {
   max-width: 60%;
+  text-align: center;
+  color: white;
+  font-size: calc(10px + 0.6vw);
+  padding-bottom: 3rem;
+}
+
+.section-4-text p {
+  max-width: 80%;
   text-align: center;
   color: white;
   font-size: calc(10px + 0.6vw);
@@ -197,7 +204,7 @@ figcaption {
   font-size: calc(8px + 0.4vw);
 }
 /* ----- PRODUCERS LOGOS ----- */
-.section-4-producers {
+/* .section-4-producers {
   display: grid;
   grid-template-columns: 1fr 4fr 4fr 1fr;
 }
@@ -246,6 +253,12 @@ figcaption {
 
 .company-name {
   text-align: center;
+} */
+
+.section-4-producers {
+  display: flex;
+  flex-direction: column-reverse;
+  padding-top: 3rem;
 }
 
 div.opening-hours {
@@ -363,13 +376,24 @@ We define the mobile version first and then everything else */
     padding: 3rem 0 3rem 0;
   }
 
+  #section-4-producers img {
+    grid-column: 2/3;
+    padding: 3rem 0;
+    max-width: 80%;
+  }
+
+  .section-4-text {
+    grid-column: 3/4;
+    align-self: center;
+  }
+
   .gallery {
     grid-column: 2/4;
   }
 
   .section-2-text,
   .section-3-text,
-  .section-4-text,
+  /* .section-4-text, */
   #section-5-where-are-we h1 {
     display: flex;
     flex-direction: column;
@@ -378,7 +402,7 @@ We define the mobile version first and then everything else */
   }
 
   .section-3-text,
-  .section-4-text,
+  /* .section-4-text, */
   #section-5-where-are-we h1 {
     grid-column: 2/4;
   }
@@ -394,10 +418,13 @@ We define the mobile version first and then everything else */
     max-width: 80%;
   }
 
-  .section-3-text p,
-  .section-4-text p {
+  .section-3-text p {
     text-align: left;
     max-width: 40%;
+  }
+
+  .section-4-text p {
+    text-align: left;
   }
 
   .section-1-text img {

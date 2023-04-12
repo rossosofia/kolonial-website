@@ -1,0 +1,31 @@
+[
+  {
+    "title": "Cheese",
+    "desc": "Parmasan, Cheddar, Brie, Camembert, Feta... all the cheese you need for what ever mood. The taste and smell is something you experience and fall in love with.",
+    "img": "./assets/5.jpeg"
+  },
+
+  {
+    "title": "Vegetables",
+    "desc": "The vegetables variations from colored raddicho imported from Italy to herbs from France. The selection is wide and the taste is incredible.",
+    "img": "assets/3.jpeg"
+  },
+
+  {
+    "title": "Honey",
+    "desc": "Honey from Greeces local beekeepers to get you cooking a natural sugar and the sweet taste of honey in your tea.",
+    "img": "assets/2.jpeg"
+  },
+
+  {
+    "title": "Olives",
+    "desc": "The olives from Greece. The good taste from the countrysite. And the smoothness of the olive olive on a salat or for cooking is the extra touch you need on your food.",
+    "img": "assets/4.jpeg"
+  },
+
+  {
+    "title": "Wine",
+    "desc": "Visiting Norrebro Kolonial you can find a selection of  independent winemakers and producers from France , Italy, Greece and Denmark.",
+    "img": "assets/1.jpeg"
+  }
+]
